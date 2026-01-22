@@ -1,4 +1,4 @@
-int d = 100;
+int t = 100;
 void setup()
 {
 pinMode(2, OUTPUT);
@@ -12,9 +12,9 @@ void loop()
 
 for ( int a = 2; a < 7 ; a++ )
 {
-digitalWrite(a, HIGH);
-delay(d);
-digitalWrite(a, LOW);
-delay(d);
+digitalWrite(p, HIGH);
+delay(t);
+digitalWrite(p, LOW);
+delay(t);
 }
 }
